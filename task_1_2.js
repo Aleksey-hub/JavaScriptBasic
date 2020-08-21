@@ -47,6 +47,9 @@ function AttachedPostES5(author, text, date){
     this.highlighted = false;
 }
 
+AttachedPostES5.prototype = Object.create(PostES5.prototype);
+AttachedPostES5.prototype.constructor = AttachedPostES5;
+
 AttachedPostES5.prototype.makeTextHighlighted = function() {
     this.highlighted = true;
 }
