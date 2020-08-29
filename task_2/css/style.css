@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slider {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.slide_content img {
+    width: 100%;
+    height: 100%;
+}
+
+.left_slide {
+    position: absolute;
+    font-size: 8vw;
+    color: rgb(128, 128, 128, 0.7);
+    top: calc(50% - 27px);
+    left: 0;
+}
+
+.rigth_slide {
+    position: absolute;
+    font-size: 8vw;
+    color: rgb(128, 128, 128, 0.7);
+    top: calc(50% - 27px);
+    right: 0;
+}
+
+.left_slide:hover,
+.rigth_slide:hover {
+    color: rgb(128, 128, 128, 1);
+}
+
+.hidden {
+    display: none;
+}

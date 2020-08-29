@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.product {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+.header {
+    height: 48px;
+    background-color: darkgray;
+    text-align: end;
+}
+
+.header button {
+    margin: 5px 5px;
+}
+
+.container {
+    padding-top: 10px;
+}
